@@ -1,0 +1,23 @@
+Java class 2
+
+public class Recap {
+	
+	public static void main(String[] args) {
+
+		System.out.println("Welcome back");
+	}
+}
+
+2 Data Types in Java:
+Non Primitive - many (String, ....)
+Primitive - 8
+		byte, short, int, long
+		float, double
+		boolean
+		char
+
+variables syntax
+dataType name;
+
+String - a value that represented in ""
+do not create a class with name String
