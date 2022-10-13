@@ -1,4 +1,4 @@
-package com.syntax.class02;
+package class02;
 
 public class Variables {
 

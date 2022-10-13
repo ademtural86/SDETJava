@@ -1,4 +1,4 @@
-package com.syntax.class10;
+package class10;
 
 public class HW2 {
 

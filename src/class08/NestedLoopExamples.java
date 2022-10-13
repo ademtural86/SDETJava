@@ -1,4 +1,4 @@
-package com.syntax.class08;
+package class08;
 
 public class NestedLoopExamples {
 	

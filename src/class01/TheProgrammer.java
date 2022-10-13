@@ -1,4 +1,4 @@
-package com.syntax.class01;
+package class01;
 
 public class TheProgrammer {
 

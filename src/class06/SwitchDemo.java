@@ -1,4 +1,4 @@
-package com.syntax.class06;
+package class06;
 
 public class SwitchDemo {
 

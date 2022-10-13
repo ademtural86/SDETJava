@@ -1,4 +1,4 @@
-package com.syntax.class03;
+package class03;
 
 public class IfElse {
 

@@ -1,4 +1,4 @@
-package com.syntax.class07;
+package class07;
 
 public class IncrementAndDecrement {
 

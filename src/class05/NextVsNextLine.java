@@ -1,4 +1,4 @@
-package com.syntax.class05;
+package class05;
 
 import java.util.Scanner;
 

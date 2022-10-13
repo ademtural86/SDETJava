@@ -1,4 +1,4 @@
-package com.syntax.class09;
+package class09;
 
 public class AllElementsFromArray {
 	
