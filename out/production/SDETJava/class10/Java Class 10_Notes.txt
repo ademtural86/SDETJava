@@ -1,0 +1,43 @@
+Java class 10
+
+array - container object that holds multiple values of the same type
+
+how to create an use an array?
+
+int[] nums=new int[4];
+nums[0]=10;
+nums[1]=100;
+
+System.out.println(nums[1]); //0
+System.out.println(nums[4]); // RE:ArrayIndexOutOfBoundException:4
+
+nums.length -> tells how many elements
+//how to get all elements from an array?
+
+for(int i=0; i<num.length; i++) {
+	
+	System.out.println(nums[i]);
+}
+------------------------------------------
+
+Advanced for loop works only when we work with array or collection
+it loop only 1 direction
+
+for(int num: nums){
+	
+	System.out.println(num);
+	
+}
+
+Types of arrays - 2d, 3d
+
+2D array - array of arrays
+
+
+enhanced for loop syntax
+
+
+for(dataType variableName:nameOfArray) {
+	
+	SOPln(variableName);
+}
