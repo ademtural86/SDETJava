@@ -22,7 +22,8 @@ Up-side:
 DownSide:
     They occupy the memory for longer than a local variable.
 When we should use instance variables:
-    1) When we need to share a value between two or more methods then we should go with the instance variable.
+    1) When we need to share a value between two or more methods then we should go with the
+    instance variable.
     2) When we are planing to create multiple objects of a class and it is possible that all the objects can have
     a different value for that variable.
 static variable:
