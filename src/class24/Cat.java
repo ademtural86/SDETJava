@@ -12,7 +12,7 @@ public class Cat {
     Create a horse class
     have 5 fields of your choice
     create constructor and getter setter methods for this class
-    atleast write one coniditon inside setter class
+    at least write one condition inside setter class
      */
     public Cat(String name, String breed, int age, double weight) {
         setName(name);
