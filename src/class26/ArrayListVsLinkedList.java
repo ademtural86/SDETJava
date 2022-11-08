@@ -12,7 +12,6 @@ public class ArrayListVsLinkedList {
         for (int i = 0; i < 1000000; i++) {
             linkedList.add(0,"Test");
         }
-
         long endTime = System.currentTimeMillis();
 
         System.out.println("LinkedList "+(endTime-startTime));
