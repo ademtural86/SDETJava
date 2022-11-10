@@ -21,6 +21,8 @@ public class TypesOfSets {
         hashSet.add("Banana");
         System.out.println("HashSet");
         System.out.println(hashSet);
+        hashSet.removeAll(hashSet);
+        System.out.println(hashSet);
 
         //Whenever you need insertion order
         LinkedHashSet<String> linkedHashSet=new LinkedHashSet<>();

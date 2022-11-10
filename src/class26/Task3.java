@@ -15,6 +15,8 @@ public class Task3 {
 
         var it=numbers.iterator();
 
+
+
         while (it.hasNext()){
             Integer num=it.next();
             if(num%5==0){

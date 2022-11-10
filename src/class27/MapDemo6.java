@@ -1,6 +1,7 @@
 package class27;
 
 import java.util.HashMap;
+import java.util.TreeMap;
 
 public class MapDemo6 {
     public static void main(String[] args) {
@@ -9,6 +10,8 @@ public class MapDemo6 {
         fruit.put("Mango",1.99);
         fruit.put("Orange",4.99);
         fruit.put("Banana",10.1);
+
+
 
 
 
