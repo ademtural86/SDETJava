@@ -12,7 +12,7 @@ import java.io.IOException;
 public class ExcelDemo2 {
     public static void main(String[] args) throws IOException {
 
-        String path="/Users/apple/IdeaProjects/SDETBatch14Java/Data/Test.xlsx";
+        String path="Data/Test.xlsx";
         FileInputStream fileInputStream=new FileInputStream(path);
         XSSFWorkbook excel=new XSSFWorkbook(fileInputStream);
         Sheet sheet=excel.getSheet("Sheet1");

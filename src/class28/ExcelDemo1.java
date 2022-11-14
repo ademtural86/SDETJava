@@ -11,11 +11,10 @@ public class ExcelDemo1 {
     public static void main(String[] args) throws IOException {
 
         // we need to know path of the file
-        String path="/Users/apple/IdeaProjects/SDETBatch14Java/Data/Test.xlsx";
+        String path="Data/Test.xlsx";
         //navigate to this path
         FileInputStream fileInputStream=new FileInputStream(path);
         // that special that can handle the xlsx files
-
         XSSFWorkbook excelFile=new XSSFWorkbook(fileInputStream);
         //Getting to the Sheet inside the Excel file where data is stored
         Sheet sheet=excelFile.getSheet("Sheet1");
