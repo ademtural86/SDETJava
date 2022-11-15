@@ -11,7 +11,7 @@ public class Review1 {
 
     public static void main(String[] args) throws IOException {
 
-        String path="/Users/apple/IdeaProjects/SDETBatch14Java/Data/Book.xlsx";
+        String path="Data/Book.xlsx";
       var data=  ExcelReader.read(path);
 
        /* Map<String ,String> row1=data.get(0);

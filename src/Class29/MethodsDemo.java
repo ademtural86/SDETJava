@@ -26,7 +26,7 @@ public class MethodsDemo {
 
         System.out.println(getMap());
 
-      var data=  ExcelReader.read("/Users/apple/IdeaProjects/SDETBatch14Java/Data/Test.xlsx");
+      var data=  ExcelReader.read("Data/Test.xlsx");
 
         System.out.println(data.get(1));
         Map<String,String> map=data.get(2);
