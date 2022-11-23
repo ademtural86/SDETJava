@@ -17,6 +17,7 @@ public class ThrowVsThrows {
         } catch (IOException e) {
             System.out.println("Send an email to Teymur yuour is unable to locate the files" +
                     "we don't care if it s weekend come to office and fix it.");
+            throw new RuntimeException();
         }
     }
 
